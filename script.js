@@ -1,12 +1,14 @@
-let ml = document.getElementById("ml");
-let cc = document.getElementById("cc");
-let cs = document.getElementById("cs");
+document.getElementById("ml").addEventListener("input",convPoids);
+document.getElementById("cc").addEventListener("input",convPoids);
+document.getElementById("cs").addEventListener("input",convPoids);
 
-ml.addEventListener("input", function(){convPoids(this.id, this.value);});
-cc.addEventListener("input", function(){convPoids(this.id, this.value);});
-cs.addEventListener("input", function(){convPoids(this.id, this.value);});
-
-function convPoids(id, valeur){
+function convPoids(e){
+  //définir id comme une constante non modifiable
+  //e = event de l'input
+  const id = e.target.id;
+  const valeur = parseFloat(e.target.value);
+  //console.log affiche les valeurs dans la console pour le débogage
+  console.log(valeur);
     if(id == "ml"){
       cc.value = Math.round(valeur /5 * 2) / 2;
       cs.value = Math.round(valeur /15 * 2) / 2;
