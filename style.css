@@ -1,0 +1,10 @@
+body{
+	font-family: 'Poppins';
+}
+input {
+  cursor: help;
+}
+.form-group{
+  display: inline-block;
+  padding: 5px;
+}
