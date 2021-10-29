@@ -7,4 +7,5 @@ input {
 .form-group{
   display: inline-block;
   padding: 5px;
+  with: 33%;
 }
