@@ -6,7 +6,7 @@ function convPoids(e){
   //définir id comme une constante non modifiable
   //e = event de l'input
   const id = e.target.id;
-  const valeur = parseFloat(e.target.value);
+  const valeur = parseInt(e.target.value);
   //console.log affiche les valeurs dans la console pour le débogage
   console.log(valeur);
     if(id == "ml"){
