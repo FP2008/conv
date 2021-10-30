@@ -6,8 +6,7 @@ input {
   cursor: help;
   display: block;
   width: 100%;
-  /*padding: .375rem .75rem;*/
-  padding: .375rem; /*1rem = 16 px par défaut*/
+  padding: .375rem .75rem; /*1rem = 16 px par défaut*/
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
