@@ -32,7 +32,7 @@ input {
   flex-wrap : wrap;
 }
 .conv-item {
-  width:120px;
+  width:125px;
   margin : 0.25rem;
   display : flex;
   align-items : center;
