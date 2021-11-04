@@ -1,7 +1,10 @@
 body{
   font-family: 'Poppins';
 }
-input {
+input, button {
+  cursor: pointer !important;
+  
+  text-align:center;
   outline : true;
   cursor: help;
   display: block;
@@ -20,6 +23,9 @@ input {
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box- shadow .15s ease-in-out;
 }
+button[type="reset"] {
+background-color: #f2d508; 
+}  
 .form-group{
   display: inline-block;
   padding: 5px;
@@ -35,14 +41,20 @@ input {
   width:125px;
   margin : 0.25rem;
   display : flex;
-  align-items : center;
-  
+  align-items : center; 
 }
-.conv-item > label {
+.raz {
+  width:80px;
+  margin : 0.25rem;
+  display : flex;
+  align-items : center; 
+}
+.conv-item > label, .raz > label  {
   width:40px;
-  text-align : right;
+  text-align : center;
   margin-right : 0.3rem;
 }
+
 
 /* Firefox */
 input[type=number] {
