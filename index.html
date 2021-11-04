@@ -8,14 +8,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body >
+ <form classe="myform">
   <div class="conv-container">
     <div class="conv-item">
-      <label>c.c.</label>
-      <input id="cc" type="number" placeholder="nb de c.c.">
-    </div>
-    <div class="conv-item">
-      <label>c.s.</label>
-      <input id="cs" type="number" placeholder="nb de c.s.">
+      <label>l</label>
+      <input  id="li" type="number" placeholder="vol. en l">
     </div>
     <div class="conv-item">
       <label>dl</label>
@@ -29,9 +26,21 @@
       <label>ml</label>
       <input id="ml" type="number" placeholder="vol. en ml">
     </div>
-    
- </div>
-  <!-- Placer les scripts avant la fin de la balise body-->
-  <script src="./script.js"></script>
+    <div class="conv-item">
+      <label>c.s.</label>
+      <input id="cs" type="number" placeholder="nb de c.s.">
+    </div>
+    <div class="conv-item">
+      <label>c.c.</label>
+      <input id="cc" type="number" placeholder="nb de c.c.">
+    </div>
+    <div class="raz">
+      <label></label>
+      <button type="reset" value="Reset">RAZ</button>
+    </div>
+   </div>
+</form>
+<!-- Placer les scripts avant la fin de la balise body-->
+<script src="./script.js"></script>
 </body>
 </html>
