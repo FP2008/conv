@@ -2,8 +2,7 @@ body{
   font-family: 'Poppins';
 }
 input, button {
-  cursor: pointer !important;
-  
+  cursor: pointer !important;  
   text-align:center;
   outline : true;
   cursor: help;
