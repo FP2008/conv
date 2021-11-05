@@ -2,7 +2,7 @@ body{
   font-family: 'Poppins';
 }
 input, button {
-  cursor: pointer !important;  
+  cursor: pointer !important;
   text-align:center;
   outline : true;
   cursor: help;
@@ -10,7 +10,7 @@ input, button {
   width: 100%;
   padding: .375rem .75rem; /*1rem = 16 px par défaut*/
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
@@ -54,19 +54,16 @@ background-color: #f2d508;
   margin-right : 0.3rem;
 }
 
-
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
-}
- 
+} 
 /* Chrome */
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button { 
 	-webkit-appearance: none;
 	margin:0;
-}
- 
+} 
 /* Opéra*/
 input::-o-inner-spin-button,
 input::-o-outer-spin-button { 
