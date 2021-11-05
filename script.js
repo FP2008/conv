@@ -1,9 +1,9 @@
-document.getElementById("li").addEventListener("input",convPoids);
-document.getElementById("dl").addEventListener("input",convPoids);
-document.getElementById("cl").addEventListener("input",convPoids);
-document.getElementById("ml").addEventListener("input",convPoids);
-document.getElementById("cs").addEventListener("input",convPoids);
-document.getElementById("cc").addEventListener("input",convPoids);
+document.getElementById("li").addEventListener("input",convVol);
+document.getElementById("dl").addEventListener("input",convVol);
+document.getElementById("cl").addEventListener("input",convVol);
+document.getElementById("ml").addEventListener("input",convVol);
+document.getElementById("cs").addEventListener("input",convVol);
+document.getElementById("cc").addEventListener("input",convVol);
 
 function round(value, step) {
   step || (step = 1.0);
@@ -11,7 +11,7 @@ function round(value, step) {
   return Math.round(value * inv) / inv;
 }
 
-function convPoids(e){
+function convVol(e){
   //définir id comme une constante non modifiable
   //e = event de l'input
   const id = e.target.id;
