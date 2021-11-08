@@ -1,6 +1,7 @@
 body{
   font-family: 'Poppins';
 }
+
 input, button {
   cursor: pointer !important;
   text-align:center;
@@ -20,15 +21,13 @@ input, button {
   -moz-appearance: none;
   appearance: none;
   border-radius: .25rem;
-  transition: border-color .15s ease-in-out,box- shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box- shadow .15s ease- in-out;
 }
+
 button[type="reset"] {
 background-color: #f2d508; 
-}  
-.form-group{
-  display: inline-block;
-  padding: 5px;
 }
+
 .conv-container {
   display : flex;
   width:100%;
@@ -36,18 +35,21 @@ background-color: #f2d508;
   margin-right :  auto;
   flex-wrap : wrap;
 }
+
 .conv-item {
-  width:125px;
+  width:100px;
   margin : 0.25rem;
   display : flex;
   align-items : center; 
 }
+
 .raz {
   width:80px;
   margin : 0.25rem;
   display : flex;
   align-items : center; 
 }
+
 .conv-item > label, .raz > label  {
   width:40px;
   text-align : center;
@@ -57,13 +59,15 @@ background-color: #f2d508;
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
-} 
+}
+
 /* Chrome */
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button { 
 	-webkit-appearance: none;
 	margin:0;
-} 
+}
+
 /* Opéra*/
 input::-o-inner-spin-button,
 input::-o-outer-spin-button { 
