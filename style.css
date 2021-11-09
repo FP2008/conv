@@ -2,11 +2,10 @@ body{
   font-family: 'Poppins';
 }
 
-input, button {
+input {
   cursor: pointer !important;
   text-align:center;
   outline : true;
-  cursor: help;
   display: block;
   width: 100%;
   padding: .375rem .75rem; /*1rem = 16 px par défaut*/
@@ -17,6 +16,32 @@ input, button {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box- shadow .15s ease- in-out;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #f2d508;
+}
+
+button {
+  cursor: pointer !important;
+  text-align:center;
+  outline : true;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem; /*1rem = 16 px par défaut*/
+  font-size: 1rem;
+  font-weight : bold;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0px solid #ced4da;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -37,7 +62,7 @@ background-color: #f2d508;
 }
 
 .conv-item {
-  width:100px;
+  width:90px;
   margin : 0.25rem;
   display : flex;
   align-items : center; 
