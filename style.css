@@ -48,7 +48,7 @@ input[type="button"] {
 }
 
 .conv-item {
-  width:113px;
+  width:100px;
   margin : 0.25rem;
   display : flex;
   align-items : center; 
